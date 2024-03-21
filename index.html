@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Weather App</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="search">
+            <input type="text" class="inputBox" placeholder="Enter the City Name" spellcheck="false">
+            <button><img src="search.png"></button>
+        </div>
+        <div class="details">
+            <h2>WEATHER FORECAST</h2>
+            <h3 class="cityname">City Name</h3>
+            <h1 class="temp">Temp</h1>
+        </div>
+        <div class="condel">
+            <p class="country">Country</p>
+            <p class="wind">Wind</p>
+            <p class="humidity">Humidity</p>
+        </div>
+     </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
